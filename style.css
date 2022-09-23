@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+
+  font-size: 30px;
+  text-align: center;
+
+  border: 1px solid purple;
+}
+
+button {
+  display: block;
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
